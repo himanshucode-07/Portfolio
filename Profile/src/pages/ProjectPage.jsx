@@ -1,3 +1,13 @@
+import { projects } from "../data/project"
+
 export default function ProjectPage() {
-  return <h1 className="text-">Projects Page</h1>
+  return (
+    <div>
+      <h1>Projects Page</h1>
+
+      {projects.map((project) => {
+        return <h1 key={project.id}>{project.title}</h1>
+      })}
+    </div>
+  )
 }

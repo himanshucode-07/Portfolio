@@ -1,0 +1,32 @@
+export const projects = [
+  {
+    id: 1,
+    slug: "portfolio-website",
+    title: "Portfolio Website",
+    description: "A personal portfolio built using React and Tailwind CSS.",
+    imageUrl: "https://via.placeholder.com/300",
+    tags: ["React", "Tailwind", "UI"],
+    liveUrl: "https://example.com/portfolio",
+    featured: true,
+  },
+  {
+    id: 2,
+    slug: "chat-app",
+    title: "Chat Application",
+    description: "A real-time chat app using modern web technologies.",
+    imageUrl: "https://via.placeholder.com/300",
+    tags: ["React", "WebSocket", "Node"],
+    liveUrl: "https://example.com/chat",
+    featured: false,
+  },
+  {
+    id: 3,
+    slug: "todo-app",
+    title: "Todo App",
+    description: "A simple and clean todo app to manage daily tasks.",
+    imageUrl: "https://via.placeholder.com/300",
+    tags: ["JavaScript", "CSS"],
+    liveUrl: "https://example.com/todo",
+    featured: false,
+  },
+]
